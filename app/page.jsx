@@ -7,8 +7,8 @@ export default function Home() {
         <div className='hover:cursor-pointer'>ZoupAI</div>
         <div className='flex justify-center gap-10'>
           <p className='hover:cursor-pointer hover:scale-110 transition duration-300'>Home</p>
-          <p className='hover:cursor-pointer'>Services</p>
-          <p className='hover:cursor-pointer'>Contact</p>
+          <p className='hover:cursor-pointer transition duration-300'>Services</p>
+          <p className='hover:cursor-pointer transition duration-300'>Contact</p>
         </div>
         <div className='hover:cursor-pointer'>Sign In</div>
       </header>
