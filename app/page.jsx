@@ -24,11 +24,12 @@ export default function Home() {
         <div className='hover:cursor-pointer'>greenmind.ai</div>
         <div className='flex justify-center gap-10'>
           <p className='hover:cursor-pointer hover:scale-110 transition duration-300'>Home</p>
-          <p className='hover:cursor-pointer transition duration-300'>Services</p>
-          <p className='hover:cursor-pointer transition duration-300'>Contact</p>
+          <p className='hover:cursor-pointer hover:scale-110 transition duration-300'>Services</p>
+          <p className='hover:cursor-pointer hover:scale-110 transition duration-300'>Contact</p>
         </div>
         <div className='hover:cursor-pointer'>Sign In</div>
       </header>
+<<<<<<< HEAD
       
       <main className='flex justify-center items-center font-poppins'>
         <div ref={ref} className='flex flex-col justify-center items-center mt-24'>
@@ -44,6 +45,15 @@ export default function Home() {
         ]}
       />A Smart Energy Solution For Our Greener Future</p>
         </div>
+=======
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+
+      <div className="relative flex place-items-center">
+        <p className='font-bold text-6xl text-center'>
+          ENERGY SOLUTIONS <br/>WITH <span className='italic'>ZOUP AI</span></p>
+      </div>
+
+>>>>>>> bb5b52e8764d145aa2eb25abe9c55602d37accaa
       </main>
     </>
   )
